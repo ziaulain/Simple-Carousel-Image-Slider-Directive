@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="simpleSlider" >
+<head>
+  	<meta charset="utf-8">
+  	<title>AngularJS Simple Slider Directive</title>
+  	<link rel="stylesheet" href="style.css">
+  	<script>document.write("<base href=\"" + document.location + "\" />");</script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.js"></script>
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <script src="app.js"></script>
+</head>
+<body ng-controller="MainCtrl">
+	<div class="container">
+		<div class="row">
+  			<div custom-carousel class="col-xs-12" slider-images="sliderImgUrls" slide-in-anim="'fadeinAnim'" slider-out-anim="'fadeOutAnim'"></div>
+  		</div>
+  	</div>
+</body>
+</html>
