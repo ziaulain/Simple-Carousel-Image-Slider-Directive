@@ -210,9 +210,9 @@ angular.module('myApp')..directive('customCarousel', function($timeout,$http,$lo
 
 ```
 $scope.sliderImgUrls = [
-    {'url':'img/1.jpg','anim':'fadeOutAnim'},
-    {'url':'img/2.jpg','anim':'fadeinAnim'},
-    {'url':'img/3.jpg','anim':'fadeOutAnim'},
-    {'url':'img/4.jpg','anim':'fadeOutAnim'}];
+    {'url':'img/1.jpg'},
+    {'url':'img/2.jpg'},
+    {'url':'img/3.jpg'},
+    {'url':'img/4.jpg'}];
     
 ```
