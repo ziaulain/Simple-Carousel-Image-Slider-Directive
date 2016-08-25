@@ -1,6 +1,5 @@
 # Simple Carousel Image Slider Directive for AngularJS
 
-This is for the developer who doesnt like reading much.
 
 Its a simple slider. The images fade in and out. More Animations will be added soon 
 
